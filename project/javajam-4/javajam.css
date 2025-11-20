@@ -1,0 +1,101 @@
+body {
+ background-image: url(background.gif);
+color: #000000;
+font-family:Verdana, Arial, sans-serif 
+
+}
+
+
+    body{
+        background-color: #fef6c2;
+        min-width: 900px;
+        max-width: 1280px;
+        box-shadow: 6px 12px 16px rgba(2, 8, 2, 1) ;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+
+header{
+    background-image: url(javajamlogo.jpg);
+    background-repeat: no-repeat;
+    height: 150px;
+background-color:#D2B48C ;
+
+}
+h1{
+    font-size: 3em;
+ padding-top: 45px;
+ padding-left: 38px;
+text-align: center;
+}
+
+
+h4{
+    background-color: #D2B48C ;
+    font-size: 1.2em;
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+
+nav{
+    font-size: 1.5em;
+    padding-top: 10px;
+    text-align: center;
+     font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+}
+main{
+
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    display: block;
+
+}
+.details{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer{
+    padding-bottom: 10px;
+    border-top: 2px solid #221811;
+    font-style: italic;
+    background-color: #D2B48C ;
+    font-size: 0.60em;
+    text-align: center;
+   
+    
+}
+form{
+padding: 2em;
+}
+label{
+    float: left;
+    display: block;
+    padding-right: 1em;
+    text-align: right;
+    width: 8em;
+}
+input{
+    margin: bottom 1em;
+    display: block;
+}
+textarea{
+    margin: bottom 1em;
+    display: block;
+}
+#mySubmit{
+    margin-left: 9.5em;
+}

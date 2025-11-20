@@ -1,0 +1,125 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9fafb;
+  color: #333;
+  background-image: url(5741168.jpg);
+  background-size: cover;         
+  background-position: center; 
+  background-attachment: fixed;  
+
+}
+
+/* ===== Header ===== */
+header {
+    
+    color: rgb(255, 255, 255);
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+header {
+  position: relative;
+  background-image: url(5779879.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  overflow: hidden;
+}
+
+/* 🔹 الطبقة الشفافة */
+header::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* اللون الأسود مع شفافية 50% */
+}
+
+/* 🔹 حتى النص يظهر فوق الطبقة */
+header h1, header p, header a {
+  position: relative;
+  z-index: 1;
+}
+   
+}
+
+header h1 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1em;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: rgb(81, 106, 228);
+  color: #f0f0f0;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* ===== Sections ===== */
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #0a84ff;
+  border-bottom: 2px solid #0a84ff;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+/* ===== Lists ===== */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+  background: #eef6ff;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+ul li a {
+  color: #0a84ff;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Projects ===== */
+.project {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f3f8ff;
+  border-radius: 10px;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
